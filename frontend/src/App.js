@@ -9,6 +9,7 @@ const App = () => {
       <Header />
       <div>This is a basic example .</div>
       <Footer />
+      <div>This section is used for Footer</div>
     </div>
   );
 }
