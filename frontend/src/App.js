@@ -1,22 +1,18 @@
 import React from 'react';
-import Header from './components/Header';
-import Footer from './components/Footer';
+import { Navbar, Hero, Products, Deals, Trending, Footer } from "./components";
 
 import './App.css';
 
 const App = () => {
   return (
-    <div>
-      
-      <Header />
-      <div>This is a basic example .</div>
+    <div className="bg-[#232f3e]">
+      <Navbar />
+      {/* <Add /> */}
+      <Hero />
+      <Products />
+      <Deals />
+      <Trending />
       <Footer />
-      <div className="bg-blue-500 text-white p-4">
-        This is a Footer section 
-      </div>
-      <div className="bg-yellow-500 text-blue">
-        hello
-      </div>
     </div>
   );
 }
